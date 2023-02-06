@@ -1,0 +1,159 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* section 1 styling ; landing page section */
+.introDiv {
+
+    background-color: rgba(248,129,78,255);
+    height: 69vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    padding-right: 20em;
+    color: white;
+}
+
+.icon{
+    font-size: 4em;
+   
+}
+
+.icon button{
+    font-size: 1.5em;
+    border:none;
+    background-color: transparent;
+    color: white;
+   
+}
+
+.text{
+    font-size: 2em;
+   
+}
+
+.imageText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.image img{
+  height: 68vh;
+   
+}
+
+ /* Section 2- form input section styling */ 
+
+.formDiv {
+
+    background-color: rgba(248,129,78,255);
+    height: 69vh;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 11em;
+    padding-right: 20em;
+    color: white;
+    display: none;
+}
+
+.icon2{
+    font-size: 4em;
+   
+}
+.icon2 button{
+    font-size: 1.5em;
+    border:none;
+    background-color: transparent;
+    color: white;  
+    margin-top: -0.5em; 
+}
+ 
+
+
+.formInputDiv{
+display: flex;
+justify-content: center;
+gap: 10em;
+align-items: center;
+   
+}
+
+.textIcon ion-icon{
+    font-size: 4em;  
+}
+
+.text-form{
+    margin-top: -10em; 
+    text-align: center;
+}
+
+/* form styling */
+form{
+    background-color: white; 
+    width: 30vw;
+    height: 70vh;
+   padding: 5px;
+}
+
+
+.formHeading{
+    background-color: rgba(248,129,78,255);
+    padding: 15px;
+    /* padding-top: 35px; */
+}
+
+form input{
+  width: 100%;
+  padding: 10px;
+}
+
+form button{
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(248,129,78,255);
+    border: none;
+    color: white;
+    margin-top: 3em;
+  }
+
+  label{
+   font-size: 1.5em;
+   color:rgba(248,129,78,255);
+  }
+
+  /* task added section styling */
+
+  .section3{
+   text-align: center;
+   font-style: italic;
+   }
+
+
+   .taskDisplayCard{
+    width:200px;
+    height:200px
+   }
+
+   .taskDisplayCard img{
+    width:100%;
+
+   }
+   .section3{
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap; 
+    height: auto;
+   }
+
+
+ 
+
+
